@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Ground
+  - coin
+  - music
   layers:
   - Default
   - TransparentFX
@@ -16,11 +19,11 @@ TagManager:
   - Climbing
   - Player
   - Background
-  - Bouncing
-  - Enemies
-  - Hazards
-  - Bullets
-  - Interactables
+  - MushRoom
+  - Enemy
+  - Bullet
+  - interactables
+  - button
   - 
   - 
   - 
@@ -42,27 +45,27 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 2654948761
+  - name: background
+    uniqueID: 2486471299
     locked: 0
-  - name: Water
-    uniqueID: 1918633245
-    locked: 0
-  - name: Platforms
-    uniqueID: 3220360055
+  - name: Platfrom
+    uniqueID: 3618872313
     locked: 0
   - name: Climbing
-    uniqueID: 368567325
+    uniqueID: 2607806323
     locked: 0
-  - name: Hazards
-    uniqueID: 4058996153
+  - name: Water_map
+    uniqueID: 1113142407
+    locked: 0
+  - name: MushRoom
+    uniqueID: 3571152517
+    locked: 0
+  - name: Enemy
+    uniqueID: 538859929
     locked: 0
   - name: Interactables
-    uniqueID: 1866823795
-    locked: 0
-  - name: Enemies
-    uniqueID: 1830666407
+    uniqueID: 1041596851
     locked: 0
   - name: Player
-    uniqueID: 3411891735
+    uniqueID: 3719880649
     locked: 0
