@@ -11,10 +11,6 @@ public class Game_Session : MonoBehaviour
     [SerializeField] TextMeshProUGUI coinText;
     [SerializeField] TextMeshProUGUI setting;
     [SerializeField] int countCoin = 0;
-    /// <summary>
-    /// Start is called on the frame when a script is enabled just before
-    /// any of the Update methods is called the first time.
-    /// </summary>
     private void Start()
     {
         liveText.text = "Live : " + playerLives.ToString();
